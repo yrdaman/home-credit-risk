@@ -5,6 +5,15 @@ End-to-end machine learning system predicting default probability of loan applic
 ### Goal
 Estimate the probability of default at application time, then map that probability to risk bands + recommended actions.
 
+# Data Folder
+
+Dataset: Home Credit Default Risk (Kaggle)
+https://www.kaggle.com/competitions/home-credit-default-risk/data
+
+NOTE:
+Currently awaiting Kaggle account verification to download.
+Once verified, place all .csv files here (not committed to Git).
+
 ### ML Approach
 - Multi-table → aggregated feature engineering
 - Baselines: Logistic Regression → LightGBM
